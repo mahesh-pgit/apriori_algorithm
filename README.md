@@ -21,11 +21,11 @@ How Apriori Works ?
 To construct association rules between elements or items, the algorithm considers 3 important factors which are Support, Confidence and Lift.
 
 Support: The Support of item I is defined as the ratio between the number of transactions containing the item I by total number of transactions expressed as:
-             Support (I) = Number of Transactions Containing I / Total Number of Transactions
+Support (I) = Number of Transactions Containing I / Total Number of Transactions
 
 Confidence: This is measured by the proportion of transactions with item I1, in which item I2 also appears. The Confidence between two items I1 and I2, in a transaction
 is defined as the total number of transactions containing both items I1 and I2 divided by the total number of transactions containing I1.
-             Confidence(I1->I2) = Number of Transactions containing items I1 and I2 / Total Number of trasnactions containing I1
+Confidence(I1->I2) = Number of Transactions containing items I1 and I2 / Total Number of trasnactions containing I1
 
 Lift: Lift is defined as ratio between the Confidence and Support and is expressed as:
-             Lift(I1->I2) = confidence(I1->I2) / support(I2)
+Lift(I1->I2) = confidence(I1->I2) / support(I2)
